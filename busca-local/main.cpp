@@ -85,10 +85,6 @@ int main()
 
         partialDistance = calculatePartialDistance(pointsCopy);
 
-        // cerr << "local: " << partialDistance << " ";
-        // printList(pointsCopy, 0);
-        // cerr << "\n";
-
         for (int i = 0; i < pointsCopy.size() - 1; i++)
         {
             pointsCopyIteration = pointsCopy;
