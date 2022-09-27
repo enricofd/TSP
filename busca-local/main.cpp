@@ -99,11 +99,8 @@ int main()
             {
                 pointsCopy = pointsCopyIteration;
                 partialDistance = newPartialDistance;
-                i=0;
-                continue;
             }
-            
-        }
+                }
 
         cerr << "local: " << partialDistance << " ";
         printList(pointsCopy, 0);
